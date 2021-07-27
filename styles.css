@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sofia';
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  padding: 48px;
+  width: calc(100vw-48px);
+}
+
+header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: 16px auto;
+  top: 0;
+  width: 90%
+}
+
+header nav {
+  background-color: rgba(200,200,200,0.5);
+  border-radius: 50% 60% 40% 48px;
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+}
+
+header a {
+  font-family: Sofia;
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color:  rgb(200,200,200);
+  margin: 0px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  margin: 2em;
+}
+
+#titulo {
+  color: black;
+  font-family: 'Sofia';
+  text-decoration: none;
+}
+
+#telaTitulo {
+  background-color: steelblue;
+}
+
+#ikigai {
+  background-color: orange;
+}
+
+#ik {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  top: 40%;
+  left: 40%
+}
+
+.folha {
+  height: 50%;
+  width: 50%
+}
+
+#missao {
+  background-color: lawngreen;
+}
+
+#vocacao {
+  background-color: teal;
+}
+
+#profissao {
+  background-color: goldenrod;
+}
+
+#paixao {
+  background-color: tomato;
+}
